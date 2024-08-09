@@ -34,7 +34,6 @@
 
 
 
-
 /* ___________________________________________________________________ */
 /* box 2 */
 /* ___________________________________________________________________ */
@@ -79,7 +78,7 @@
 
 .search-select {
     background-color: #f3f3f3;
-    width : 40px;
+    width : 48px;
     text-align: left;
     height : 100%;
     border-top-left-radius: 10px;
@@ -168,6 +167,11 @@ span {
     align-items: center;
     justify-content: space-evenly;
 
+}
+
+.a1 {
+    color: white;
+    text-decoration: none;
 }
 
 .panel-ops p {
@@ -370,3 +374,5 @@ ul a {
     margin-left: 2px;
     margin-right: 15px;
 }
+
+
