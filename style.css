@@ -10,7 +10,14 @@
     color:white;
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    padding:0px 20px;
+}
+
+.nav-left {
+    display: flex;
+    gap:16px;
+    align-items: center;
 }
 
 .nav-logo {
@@ -64,8 +71,8 @@
 .nav-search {
     display: flex;
     justify-content: space-evenly;
-    background-color: pink;
-    width : 620px;
+    /* background-color: pink; */
+    width : 45%;
     height : 40px;
     border-radius: 10px;
     margin-left: 20px;
@@ -78,8 +85,8 @@
 
 .search-select {
     background-color: #f3f3f3;
-    width : 48px;
-    text-align: left;
+    width : 20%;
+    text-align:left;
     height : 100%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -102,7 +109,7 @@
 }
 
 .search-icon {
-    width:45px;
+    width:60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,6 +120,11 @@
     color:#0f1111;
 }
 
+.nav-right {
+    display: flex;
+    gap:16px;
+    align-items: center;
+}
 
 .search-icon:focus {
     border : 2px solid orange;
@@ -165,7 +177,9 @@ span {
     display:flex;
     color:white;
     align-items: center;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    gap:20px;
+    padding: 0px 20px;
 
 }
 
@@ -222,7 +236,9 @@ span {
 .shop-section {
     display: flex;
     flex-wrap: wrap;;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 21px;
+    padding: 21px 0px;
     background-color: #e2e7e6;
 }
 
@@ -230,14 +246,15 @@ span {
     /* border: 2px solid black; */
     height:400px;
     width:23%;
+    min-width: 400px;
     background-color: white;
     padding:20px 0px 15px;
-    margin-top: 21px;
-    margin-bottom: 21px;
+    /* margin-top: 21px; */
+    /* margin-bottom: 21px; */
 
 }
 
-.box5 {
+/* .box5 {
     margin-top:1.5px;
 }
 .box6 {
@@ -248,7 +265,7 @@ span {
 }
 .box8 {
     margin-top:1.5px;
-}
+} */
 
 
 .box-img:hover {
@@ -286,11 +303,12 @@ span {
 footer {
     margin-top:15px;
 }
-.foot-panel1 {
+.foot-panel1 a {
     background-color:#37475a;
     height:50px;
     display: flex;
     align-items: center;
+    text-decoration: none;
     justify-content: center;
     font-size: 0.85rem;
     color:white
